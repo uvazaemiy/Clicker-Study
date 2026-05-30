@@ -15,6 +15,8 @@ public class UpgradeButton : MonoBehaviour
     [SerializeField] private Text priceText;
     [Space] 
     [SerializeField] private Text[] extraTexts;
+    [SerializeField] private Image upgradeIcon;
+    [SerializeField] private Sprite[] iconSprites;
 
     private float timer = 0;
     
@@ -50,6 +52,7 @@ public class UpgradeButton : MonoBehaviour
             timer = 0;
             
             clicker.ClickButton(upgradeModifier);
+            ChangeIconUpgrade();
         }
     }
     
@@ -64,7 +67,14 @@ public class UpgradeButton : MonoBehaviour
             ExecuteEvents.Execute(clicker.clickButton.gameObject, pointer, ExecuteEvents.pointerUpHandler);
 
             clicker.ClickButton();
+            ChangeIconUpgrade();
         }
+    }
+
+    private void ChangeIconUpgrade()
+    {
+        upgradeIcon.gameObject.SetActive(true);
+        upgradeIcon.sprite = iconSprites[upgradeModifier - 1];
     }
     
     

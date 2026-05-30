@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 9a024856f18dbdb4bb6d35c9d1cd671a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4280612768700570119
+    second: 8-bits-characters-gaming-assets_0
+  - first:
+      213: 782962824920144083
+    second: 8-bits-characters-gaming-assets_1
+  - first:
+      213: 7916803026449457111
+    second: 8-bits-characters-gaming-assets_2
+  - first:
+      213: 451593634109818453
+    second: 8-bits-characters-gaming-assets_3
+  - first:
+      213: 8335862640196663365
+    second: 8-bits-characters-gaming-assets_4
+  - first:
+      213: 2481478394521064564
+    second: 8-bits-characters-gaming-assets_5
+  - first:
+      213: 3566923369491754472
+    second: 8-bits-characters-gaming-assets_6
+  - first:
+      213: 2335786562858060400
+    second: 8-bits-characters-gaming-assets_7
+  - first:
+      213: 4926941212214875417
+    second: 8-bits-characters-gaming-assets_8
+  - first:
+      213: 5546283129134957602
+    second: 8-bits-characters-gaming-assets_9
+  - first:
+      213: 2424215102226019339
+    second: 8-bits-characters-gaming-assets_10
+  - first:
+      213: 8103076638427536571
+    second: 8-bits-characters-gaming-assets_11
+  - first:
+      213: -5377425295092574789
+    second: 8-bits-characters-gaming-assets_12
+  - first:
+      213: 1046004385162561164
+    second: 8-bits-characters-gaming-assets_13
+  - first:
+      213: 3017600177121935135
+    second: 8-bits-characters-gaming-assets_14
+  - first:
+      213: 3782589251428850590
+    second: 8-bits-characters-gaming-assets_15
+  - first:
+      213: 1153873761595538011
+    second: 8-bits-characters-gaming-assets_16
+  - first:
+      213: -5239403354063287178
+    second: 8-bits-characters-gaming-assets_17
+  - first:
+      213: 446749373133872292
+    second: 8-bits-characters-gaming-assets_18
+  - first:
+      213: -9070008494250865292
+    second: 8-bits-characters-gaming-assets_19
+  - first:
+      213: 6186502407088205307
+    second: 8-bits-characters-gaming-assets_20
+  - first:
+      213: -8942147618650417417
+    second: 8-bits-characters-gaming-assets_21
+  - first:
+      213: 1790351953329983711
+    second: 8-bits-characters-gaming-assets_22
+  - first:
+      213: 3682323995950848710
+    second: 8-bits-characters-gaming-assets_23
+  - first:
+      213: -1812358328867257436
+    second: 8-bits-characters-gaming-assets_24
+  - first:
+      213: -2594649123410062203
+    second: 8-bits-characters-gaming-assets_25
+  - first:
+      213: 9212353976264992941
+    second: 8-bits-characters-gaming-assets_26
+  - first:
+      213: -7749911413787415570
+    second: 8-bits-characters-gaming-assets_27
+  - first:
+      213: 3309609322607308182
+    second: 8-bits-characters-gaming-assets_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_0
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 4283
+        width: 759
+        height: 868
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a166b22aac76b30800000000000000
+      internalID: 4280612768700570119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_1
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 4283
+        width: 790
+        height: 867
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d893bb7a84adda00800000000000000
+      internalID: 782962824920144083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_2
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 4283
+        width: 835
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfd14458622edd60800000000000000
+      internalID: 7916803026449457111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_3
+      rect:
+        serializedVersion: 2
+        x: 3394
+        y: 4283
+        width: 766
+        height: 896
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55681ff7402644600800000000000000
+      internalID: 451593634109818453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_4
+      rect:
+        serializedVersion: 2
+        x: 4404
+        y: 4283
+        width: 751
+        height: 899
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5483f5de7eeeea370800000000000000
+      internalID: 8335862640196663365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_5
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 2964
+        width: 767
+        height: 1089
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4741c3fc37bff6220800000000000000
+      internalID: 2481478394521064564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_6
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 2965
+        width: 770
+        height: 1047
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed689bf7e1408130800000000000000
+      internalID: 3566923369491754472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_7
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 2964
+        width: 772
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a094ed0816a6020800000000000000
+      internalID: 2335786562858060400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_8
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 2964
+        width: 779
+        height: 1048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915dc4fade2006440800000000000000
+      internalID: 4926941212214875417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_9
+      rect:
+        serializedVersion: 2
+        x: 4399
+        y: 2964
+        width: 756
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224c4d7de1b58fc40800000000000000
+      internalID: 5546283129134957602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_10
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1636
+        width: 768
+        height: 1035
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04b15b9aca84a120800000000000000
+      internalID: 2424215102226019339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_11
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1641
+        width: 773
+        height: 1077
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc5d3d4549e37070800000000000000
+      internalID: 8103076638427536571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_12
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 1640
+        width: 772
+        height: 1078
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb59ec75f2c8f55b0800000000000000
+      internalID: -5377425295092574789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_13
+      rect:
+        serializedVersion: 2
+        x: 3403
+        y: 1641
+        width: 758
+        height: 1077
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c868d134277248e00800000000000000
+      internalID: 1046004385162561164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_14
+      rect:
+        serializedVersion: 2
+        x: 4391
+        y: 1629
+        width: 767
+        height: 1089
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f32878f5ba0e920800000000000000
+      internalID: 3017600177121935135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 247
+        width: 1264
+        height: 1302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b90a612e47e7430800000000000000
+      internalID: 3782589251428850590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_16
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1111
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5abb8b9212630010800000000000000
+      internalID: 1153873761595538011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_17
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 267
+        width: 818
+        height: 1125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c4116b866e947b0800000000000000
+      internalID: -5239403354063287178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_18
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 267
+        width: 948
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acd549103c233600800000000000000
+      internalID: 446749373133872292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_19
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 266
+        width: 759
+        height: 1085
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dc666545bd02280800000000000000
+      internalID: -9070008494250865292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_20
+      rect:
+        serializedVersion: 2
+        x: 4390
+        y: 247
+        width: 811
+        height: 1243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd6798692fdad550800000000000000
+      internalID: 6186502407088205307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_21
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1097
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f69c3d4e1c17e380800000000000000
+      internalID: -8942147618650417417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_22
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1035
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd01929ad9b98d810800000000000000
+      internalID: 1790351953329983711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_23
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 936
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca1c8e1a2e3a1330800000000000000
+      internalID: 3682323995950848710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_24
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 783
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a38522c3b539d6e0800000000000000
+      internalID: -1812358328867257436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_25
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 787
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5845d5a8e54fdfbd0800000000000000
+      internalID: -2594649123410062203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_26
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 767
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8ae6cd12bd8df70800000000000000
+      internalID: 9212353976264992941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_27
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 724
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeba47441a8c27490800000000000000
+      internalID: -7749911413787415570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bits-characters-gaming-assets_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d6453d4281eed20800000000000000
+      internalID: 3309609322607308182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      8-bits-characters-gaming-assets_0: 4280612768700570119
+      8-bits-characters-gaming-assets_1: 782962824920144083
+      8-bits-characters-gaming-assets_10: 2424215102226019339
+      8-bits-characters-gaming-assets_11: 8103076638427536571
+      8-bits-characters-gaming-assets_12: -5377425295092574789
+      8-bits-characters-gaming-assets_13: 1046004385162561164
+      8-bits-characters-gaming-assets_14: 3017600177121935135
+      8-bits-characters-gaming-assets_15: 3782589251428850590
+      8-bits-characters-gaming-assets_16: 1153873761595538011
+      8-bits-characters-gaming-assets_17: -5239403354063287178
+      8-bits-characters-gaming-assets_18: 446749373133872292
+      8-bits-characters-gaming-assets_19: -9070008494250865292
+      8-bits-characters-gaming-assets_2: 7916803026449457111
+      8-bits-characters-gaming-assets_20: 6186502407088205307
+      8-bits-characters-gaming-assets_21: -8942147618650417417
+      8-bits-characters-gaming-assets_22: 1790351953329983711
+      8-bits-characters-gaming-assets_23: 3682323995950848710
+      8-bits-characters-gaming-assets_24: -1812358328867257436
+      8-bits-characters-gaming-assets_25: -2594649123410062203
+      8-bits-characters-gaming-assets_26: 9212353976264992941
+      8-bits-characters-gaming-assets_27: -7749911413787415570
+      8-bits-characters-gaming-assets_28: 3309609322607308182
+      8-bits-characters-gaming-assets_3: 451593634109818453
+      8-bits-characters-gaming-assets_4: 8335862640196663365
+      8-bits-characters-gaming-assets_5: 2481478394521064564
+      8-bits-characters-gaming-assets_6: 3566923369491754472
+      8-bits-characters-gaming-assets_7: 2335786562858060400
+      8-bits-characters-gaming-assets_8: 4926941212214875417
+      8-bits-characters-gaming-assets_9: 5546283129134957602
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

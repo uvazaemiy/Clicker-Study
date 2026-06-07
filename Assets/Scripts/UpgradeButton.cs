@@ -29,7 +29,7 @@ public class UpgradeButton : MonoBehaviour
         if (CheckPrice())
         {
             upgradeModifier++;
-            clicker.clickmodifier = upgradeModifier;
+            clicker.clickModifier = upgradeModifier;
             
             ChangeTotalClicks();
         }

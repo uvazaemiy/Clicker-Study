@@ -4,11 +4,13 @@ using UnityEngine.UI;
 public class Clicker : MonoBehaviour
 {
     private const string SAVE_CLICKS = "TotalClicks";
-
+    private const string SAVE_CLICK_MOIFIER = "ClickModifier";
+    
+    [SerializeField] private SaveController saveController;
     [SerializeField] private Text clickText;
 
     public int totalClicks;
-    public int clickmodifier = 1;
+    public int clickModifier = 1;
     [Space]
     public Button clickButton;
 
@@ -18,7 +20,9 @@ public class Clicker : MonoBehaviour
     
     void Start()
     {
-        Load();
+        totalClicks = saveController.GetTotalClicks(SAVE_CLICKS);
+        clickModifier = saveController.GetClickModifier(SAVE_CLICK_MOIFIER);
+        
         UpdateClickText();
     }
 
@@ -28,7 +32,7 @@ public class Clicker : MonoBehaviour
     
     public void ClickButton()
     {
-        totalClicks += clickmodifier;
+        totalClicks += clickModifier;
         UpdateClickText();
     }
 
@@ -37,27 +41,14 @@ public class Clicker : MonoBehaviour
         totalClicks += extraMoifier;
         UpdateClickText();
     }
+   
+    
+    
+    
+    
 
     public void UpdateClickText()
     {
         clickText.text = $"Clicks: {totalClicks}";
-    }
-
-    
-    
-    
-    
-    private void OnApplicationQuit() => Save();
-
-    private void OnApplicationPause() => Save();
-
-    private void Save()
-    {
-        PlayerPrefs.SetInt(SAVE_CLICKS, totalClicks);
-    }
-
-    private void Load()
-    {
-        totalClicks = PlayerPrefs.GetInt(SAVE_CLICKS, 0);
     }
 }

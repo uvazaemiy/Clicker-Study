@@ -3,10 +3,7 @@ using UnityEngine.UI;
 
 public class Clicker : MonoBehaviour
 {
-    private const string SAVE_CLICKS = "TotalClicks";
-    private const string SAVE_CLICK_MOIFIER = "ClickModifier";
-    
-    [SerializeField] private SaveController saveController;
+    public SaveController saveController;
     [SerializeField] private Text clickText;
 
     public int totalClicks;
@@ -20,8 +17,8 @@ public class Clicker : MonoBehaviour
     
     void Start()
     {
-        totalClicks = saveController.GetTotalClicks(SAVE_CLICKS);
-        clickModifier = saveController.GetClickModifier(SAVE_CLICK_MOIFIER);
+        totalClicks = saveController.GetTotalClicks(saveController.AllSavesName[3], totalClicks);
+        clickModifier = saveController.GetClickModifier(saveController.AllSavesName[4], clickModifier);
         
         UpdateClickText();
     }

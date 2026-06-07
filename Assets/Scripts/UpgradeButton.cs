@@ -7,7 +7,7 @@ public class UpgradeButton : MonoBehaviour
     [SerializeField] private TypeOfUpgrade typeOfUpgrade;
     [SerializeField] private Clicker clicker;
     [Space]
-    [SerializeField] private int upgradeModifier = 1;
+    public int upgradeModifier = 1;
     [SerializeField] private int upgradeCost = 100;
     [SerializeField] private int upgradeCostScale = 2;
     [Space]
@@ -19,11 +19,29 @@ public class UpgradeButton : MonoBehaviour
     [SerializeField] private Sprite[] iconSprites;
 
     private float timer = 0;
-    
-    
 
     
     
+    
+    
+
+    private void Start()
+    {
+        upgradeModifier = clicker.saveController.GetUpgradeModifier(typeOfUpgrade, upgradeModifier);
+        
+        if (upgradeModifier != 0 && typeOfUpgrade != TypeOfUpgrade.UpgradeClicks)
+            upgradeCost *= upgradeModifier * upgradeCostScale;
+        else if (typeOfUpgrade == TypeOfUpgrade.UpgradeClicks && upgradeModifier != 1)
+            upgradeCost *= (upgradeModifier - 1) * upgradeCostScale;
+        
+        UpdateButtonText();
+    }
+
+    
+    
+    
+    
+
     public void UpgradeClicks()
     {
         if (CheckPrice())
@@ -47,7 +65,7 @@ public class UpgradeButton : MonoBehaviour
 
     private void AutoFarmTimer()
     {
-        if (upgradeModifier >= 1 && timer >= 1)
+        if (timer >= 1)
         {
             timer = 0;
             
@@ -58,7 +76,7 @@ public class UpgradeButton : MonoBehaviour
     
     private void AutoClicksTimer()
     {
-        if (upgradeModifier >= 1 && timer >= 1 / (float)upgradeModifier)
+        if (timer >= 1 / (float)upgradeModifier)
         {
             timer = 0;
             
@@ -86,11 +104,14 @@ public class UpgradeButton : MonoBehaviour
         UpdateInteract();
         
         timer += Time.deltaTime;
-        
-        if (typeOfUpgrade == TypeOfUpgrade.AutoFarm)
-            AutoFarmTimer();
-        if (typeOfUpgrade == TypeOfUpgrade.AutoClick)
-            AutoClicksTimer();
+
+        if (upgradeModifier >= 1)
+        {
+            if (typeOfUpgrade == TypeOfUpgrade.AutoFarm)
+                AutoFarmTimer();
+            if (typeOfUpgrade == TypeOfUpgrade.AutoClick)
+                AutoClicksTimer();
+        }
     }
     
 
@@ -125,6 +146,8 @@ public class UpgradeButton : MonoBehaviour
 
         upgradeCost *= upgradeCostScale;
         UpdateButtonText();
+        
+        clicker.saveController.Save();
     }
 
     private void UpdateButtonText()
@@ -151,7 +174,7 @@ public class UpgradeButton : MonoBehaviour
     
     
     
-    private enum TypeOfUpgrade
+    public enum TypeOfUpgrade
     {
         UpgradeClicks,
         AutoFarm,

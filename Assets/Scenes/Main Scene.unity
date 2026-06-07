@@ -1274,6 +1274,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SaveController
   clicker: {fileID: 1836532641}
+  AllSavesName:
+  - Click Upgrade
+  - AutoFarm
+  - AutoClick
+  - Total Clicks
+  - Click Modifier
+  allUpgradeButtons:
+  - {fileID: 957393644}
+  - {fileID: 1463360258}
+  - {fileID: 1498377295}
 --- !u!4 &1073967882
 Transform:
   m_ObjectHideFlags: 0
@@ -1372,9 +1382,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1836532641}
-        m_TargetAssemblyTypeName: Clicker, Assembly-CSharp
-        m_MethodName: ApplicationSave
+      - m_Target: {fileID: 1073967881}
+        m_TargetAssemblyTypeName: SaveController, Assembly-CSharp
+        m_MethodName: DeleteAllSaves
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2293,8 +2303,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1836532640}
+  - {fileID: 1073967882}
   - {fileID: 519420032}
   - {fileID: 1673813847}
-  - {fileID: 1073967882}
   - {fileID: 619394802}
   - {fileID: 1687147005}

@@ -1,49 +1,80 @@
+using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class SaveController : MonoBehaviour
 {
     [SerializeField] private Clicker clicker;
+    public string[] AllSavesName;
+    [Space] 
+    [SerializeField] private UpgradeButton[] allUpgradeButtons; //1 - Клікер, 2 - Автоферма, 3 - Автвоклікер
+    
+    private List<int> AllIntSaves = new List<int>();
+    private bool deleteAll;
 
     
     
     
-    
-    
+
     private void OnApplicationQuit()
     {
-        Save("TotalClicks", clicker.totalClicks, "ClickModifier", clicker.clickModifier);
+        if (!deleteAll)
+            Save();
+    }
+    
+    
+    
+    
+    
+
+    public void Save()
+    {
+        foreach (UpgradeButton button in allUpgradeButtons)
+            AllIntSaves.Add(button.upgradeModifier);
+        AllIntSaves.Add(clicker.totalClicks);
+        AllIntSaves.Add(clicker.clickModifier);
+        
+        for (int i = 0; i < AllSavesName.Length; i++)
+            PlayerPrefs.SetInt(AllSavesName[i], AllIntSaves[i]);
+        
+        AllIntSaves.Clear();
     }
 
-    private void OnApplicationPause()
+    
+    
+    
+    
+    
+    public int GetTotalClicks(string value_name, int default_value)
     {
-        Save("TotalClicks", clicker.totalClicks, "ClickModifier", clicker.clickModifier);
-        Save("TotalClicks", clicker.totalClicks, "ClickModifier", clicker.clickModifier);
+        return PlayerPrefs.GetInt(value_name, default_value);
+    }
+    
+    public int GetClickModifier(string value_name, int default_value)
+    {
+        return PlayerPrefs.GetInt(value_name, default_value);
     }
 
-    
-    
-    
-    
-    
-    
-    public void ApplicationSave()
+    public int GetUpgradeModifier(UpgradeButton.TypeOfUpgrade typeOfUpgrade, int default_value)
     {
-        Save("TotalClicks", clicker.totalClicks, "ClickModifier", clicker.clickModifier);
+            switch (typeOfUpgrade)
+            {
+                case UpgradeButton.TypeOfUpgrade.UpgradeClicks:
+                    return PlayerPrefs.GetInt(AllSavesName[0], default_value);
+                case UpgradeButton.TypeOfUpgrade.AutoFarm:
+                    return PlayerPrefs.GetInt(AllSavesName[1], default_value);
+                case UpgradeButton.TypeOfUpgrade.AutoClick:
+                    return PlayerPrefs.GetInt(AllSavesName[2], default_value);
+            }
+        
+        return default_value;
     }
 
-    public void Save(string value_name, int value, string value_name_2, int value_2)
+    public void DeleteAllSaves()
     {
-        PlayerPrefs.SetInt(value_name, value);
-        PlayerPrefs.SetInt(value_name_2, value_2);
-    }
-
-    public int GetTotalClicks(string value_name)
-    {
-        return PlayerPrefs.GetInt(value_name, 0);
-    }
-    
-    public int GetClickModifier(string value_name)
-    {
-        return PlayerPrefs.GetInt(value_name, 0);
+        PlayerPrefs.DeleteAll();
+        deleteAll = true;
+        
+        Debug.Log("All saves deleted!");
     }
 }

@@ -21,11 +21,6 @@ public class SaveController : MonoBehaviour
         if (!deleteAll)
             Save();
     }
-    
-    
-    
-    
-    
 
     public void Save()
     {
@@ -33,6 +28,7 @@ public class SaveController : MonoBehaviour
             AllIntSaves.Add(button.upgradeModifier);
         AllIntSaves.Add(clicker.totalClicks);
         AllIntSaves.Add(clicker.clickModifier);
+
         
         for (int i = 0; i < AllSavesName.Length; i++)
             PlayerPrefs.SetInt(AllSavesName[i], AllIntSaves[i]);
